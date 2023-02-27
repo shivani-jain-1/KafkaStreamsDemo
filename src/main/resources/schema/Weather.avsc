@@ -1,0 +1,31 @@
+{
+  "namespace": "org.example.type.avro",
+  "type":"record",
+  "name": "Weather",
+  "fields": [
+    {"name": "MinTemp" , "type": ["null","string"]},
+    {"name": "MaxTemp" , "type": ["null","string"] },
+    {"name": "Rainfall" , "type": ["null","string"] },
+    {"name": "Evaporation" , "type": ["null","string"] },
+    {"name": "Sunshine" , "type": ["null","string"] },
+    {"name": "WindGustDir" , "type": ["null","string"] },
+    {"name": "WindGustSpeed" , "type": ["null","string"] },
+    {"name": "WindDir9am" , "type": ["null","string"] },
+    {"name": "WindDir3pm" , "type": ["null","string"] },
+    {"name": "WindSpeed9am" , "type": ["null","string"] },
+    {"name": "WindSpeed3pm" , "type": ["null","string"] },
+    {"name": "Humidity9am" , "type": ["null","string"] },
+    {"name": "Humidity3pm" , "type": ["null","string"] },
+    {"name": "Pressure9am" , "type": ["null","string"] },
+    {"name": "Pressure3pm" , "type": ["null","string"] },
+    {"name": "Cloud9am" , "type": ["null","string"] },
+    {"name": "Cloud3pm" , "type": ["null","string"] },
+    {"name": "Temp9am" , "type": ["null","string"] },
+    {"name": "Temp3pm" , "type": ["null","string"] },
+    {"name": "RainToday" , "type": ["null","string"] },
+    {"name": "RISK_MM" , "type": ["null","string"] },
+    {"name": "RainTomorrow" , "type": ["null","string"] }
+
+
+  ]
+}
